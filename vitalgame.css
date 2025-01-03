@@ -1,0 +1,152 @@
+*{
+  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none; 
+    width: 1380;
+}
+header{
+    position: fixed ;
+    top:0;
+    left: 0;
+right: 0;
+background-color: #1B1818;
+box-shadow:0 5px 10px rgba(0, 0, 0, 0,1);
+padding: 0px 7%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+width: 1380;
+}
+header .it{
+    color: #cc57c7;
+
+}
+img{
+  font-weight: bolder;
+  font-size: 25px ; 
+  position: initial; 
+}
+header .navbar ul{
+   list-style: none; 
+
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
+       font: size 25px;
+      padding: 20px;
+      color: #cc57c7;
+      display: block ;
+
+}
+header .navbar ul li a:hover{
+    background: #9c1919;
+}
+p{
+    align-items: center;
+    color: #cc57c7;
+    text-align: left;
+   font-size: 40px;
+  
+}
+header img{
+    padding:0;
+}
+body{
+    background-color: #6B7787;
+
+}
+body .bien{
+    color: #1B1818;
+    font-size: 20px;
+   right: 400px;
+    position: relative;
+}
+
+p{
+    color: antiquewhite;
+    font-size: 25px;
+    align-items: center;
+    position: relative;
+    left: 5%;
+}
+h3{
+    float: left;
+}
+body .Qui{
+    position: relative;
+    left: 20%;
+    color: #cc57c7;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: #cc57c7;
+    font-size: 24px;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.game {
+    background-color: #3c3c3c;
+    border-radius: 8px;
+    padding:20px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.game img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.game h2 {
+    color: #cc57c7;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.game p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2{
+    color: #cc57c7;
+    text-align: center;
+    font-size: 24px;
+}
+h4{
+    float: left;
+    align-self: center;
+}
+h5{
+    position: relative;
+    left: 5%;
+}
+body .innt1{
+    float: left;
+}
+body .innt2{
+    position: relative;
+    left:20%;
+}
